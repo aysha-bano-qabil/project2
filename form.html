@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission form</title>
+    <style>
+    *{
+        padding: 0;
+        margin: 0;
+        color: rgb(104, 25, 25);
+        line-height: 1.8rem;
+        font-weight: 700;
+        font-size: 16px;
+        font-variant: small-caps;
+        font-family:'Times New Roman', Times, serif;
+        
+    }
+    .fcontainer{
+        display: flex;
+        height: 130px;
+        background-color:#f39c9c;
+        justify-content: space-evenly;
+        font-size: 22px;
+        font-variant: small-caps;
+        
+        
+
+             
+    }
+        .item1{
+            background-image: url(./pics/college\ logo.jpeg);
+            background-size: contain;
+            background-repeat: no-repeat;
+            position: relative;
+            top: 10px;
+            width: 100px;
+            height: 100px;
+         }
+         a:hover{
+            color: slateblue;
+         }
+        a{
+           font-size: 22px;
+           text-decoration: none;
+           position: relative;
+           top:30px;
+           color:rgb(104,25,25);
+           font-weight:800;
+        }
+      
+        .register{
+    width: 550px;
+    margin-top: 10px;
+    margin-left:380px ;
+    border: 3px solid rgb(104,25,25);
+    background-color: #f39c9c;
+    
+    }
+    .dibbay{ 
+        line-height: 20px;
+        font-size:16px;
+        width: 400px;
+        
+    }
+button{
+    font-size: 32px;
+    width: 200px;
+    margin-left:190px;
+    background-color:#999;
+    }
+    @media (max-width: 600px)
+     { .register{
+        font-size: x-small;
+        width: auto;
+        height: auto;
+        margin: auto;
+    }
+    
+    }
+    @media (max-width: 600px)
+     {  .fcontainer{
+        font-size: x-small;
+        display: none;
+         width: auto;
+    }
+    
+    }
+    @media (max-width: 600px)
+     { .item1 {
+        font-size: x-small;
+        width: auto;
+    }
+    
+    }
+    @media (max-width: 600px)
+     { .dibbay{
+        font-size: x-small;
+        width: auto;
+    }
+    
+    }
+    @media (max-width: 600px)
+     { button{
+        font-size: x-small;
+        height: auto;
+        width: auto;
+    }
+    
+    }
+   
+
+    
+
+        
+    
+    </style>
+</head>
+<body>
+    <div class="fcontainer">
+        <div class="fitem item1"><a href=""></a></div>
+        <div class="fitem item4"><a href="./index.html">home</a></div>
+        <div class="fitem item2"><a href="./principal.html">Principal's Message</a></div>
+        <div class="fitem item3"><a href="./faculity.html">faculty</a></div>
+        <div class="fitem item5"><a href="./form.html">Admissions</a></div> 
+        <div class="fitem item6"><a href="./about.html">About</a></div>
+        </div>
+
+    <div class="register">
+    <form action=".php"></form> 
+    <label id="uni">Admission Form </label><br>
+    <label for="first Name"> First Name</label>
+   <input class="dibbay" type="text" placeholder="First Name" name="first name" id="fname"><br>
+   <label for="last name">  L1st Name</label>
+   <input class="dibbay" type="text" placeholder="Last Name" id="lname"><br>
+   <label for="dob">Date.Of..B</label>
+   <input class="dibbay" type="date" name="dob" id="dob"><br>
+   <label for="email">email addr </label>
+   <input class="dibbay" type="email" name="email" id="email"><br>
+    <label for="gender">gender</label>
+   <input type="radio" name="gender" id="male">male 
+   <input type="radio" name="gender" id="female">female <br>
+   <label for="passing year">year of passing</label>
+   <select name="passing year" id="p.year">
+   <option value="date">2020</option>
+   <option value="date">2021</option>
+   <option value="date">2022</option>
+   <option value="date">2023</option>
+   <option value="date">2024</option>
+</select><br>
+<label for="subjects">choose only three subjects</label><br>
+<input type="checkbox" name="subjects" id="sub">physics <br>
+<input type="checkbox" name="subjects" id="sub">chemistry <br>
+<input type="checkbox" name="subjects" id="sub">biology <br>
+<input type="checkbox" name="subjects" id="sub">genetics <br>
+<input type="checkbox" name="subjects" id="sub">computer <br>
+<input type="checkbox" name="subjects" id="sub">mathematics <br>
+<label for="file">submit detail</label>
+<input type="file" name="file" id="file"><br>
+<label for="student query">students query</label><br>
+<textarea class="dibbay" name="text" id="feedback" placeholder= "any problem if you have....ask about" col="150" rows="2"></textarea><br>
+<button>submit</button>
+</div>
+
+
+    
+</body>
+</html>
