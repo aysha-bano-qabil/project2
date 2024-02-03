@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <title>Queen Mary College Lahore</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .fcontainer{
+        display: flex;
+        height: 130px;
+        background-color:#f39c9c ;
+        justify-content: space-evenly;
+        font-size: 22px;
+        font-variant: small-caps;
+        
+        
+
+             
+    }
+        .item1{
+            background-image: url(./pics/college\ logo.jpeg);
+            background-size: contain;
+            background-repeat: no-repeat;
+            position: relative;
+            top: 10px;
+            width: 100px;
+            height: 100px;
+         }
+        a{
+           text-decoration: none;
+           position: relative;
+           top:30px;
+           color:rgb(7, 6, 6);
+           font-weight:800;
+
+        }
+        a:hover{
+            color:white;
+        }
+        .page{
+            background-image: url(./pics/building.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 900px;
+            color: #000;
+            text-align: center;
+            font-size: 22px;
+         .mpage{
+            position: relative;
+            top: 16%;
+            right:16%;
+            line-height: 60px;
+         }
+        }
+        .flexcontainer{
+    display: flex;
+    background-color: #302f2f;
+    height: 400px;
+    justify-content: space-evenly;
+    color: white;
+    text-transform: capitalize;
+
+        }
+        .ul1{
+            font-size: 32px;
+          .footer{
+            list-style: none;
+            font-size: 50%;
+          }
+        }
+        .ul2{
+            list-style: none;
+            font-size: 32px;
+          .footer{
+            font-size: 50%;
+          }
+        }
+        .ul3{list-style: none;
+            font-size: 32px;
+          .footer{
+            font-size: 50%;
+          }
+        }
+    /* Your existing styles here */
+
+    /* Media query for screens smaller than 600px */
+    @media only screen and (max-width: 600px) {
+        .fcontainer {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .fitem {
+            margin-bottom: 10px;
+        }
+
+        .page {
+            background-size: contain;
+        }
+
+        .mpage {
+            position: relative;
+            top: 0;
+            right: 0;
+            line-height: 30px;
+        }
+
+        .flexcontainer {
+            flex-direction: column;
+            height: auto;
+        }
+
+        .ul1, .ul2, .ul3 {
+            font-size: 24px;
+            text-align: center;
+            padding: 10px;
+        }
+    }
+</style>
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="fcontainer">
+        <div class="fitem item1"><a href=""></a></div>
+        <div class="fitem item4"><a href="./index.html">home</a></div>
+        <div class="fitem item2"><a href="./principal.html">Principal's Message</a></div>
+        <div class="fitem item3"><a href="./faculity.html">faculty</a></div>
+        <div class="fitem item5"><a href="./form.html">Admissions</a></div> 
+        <div class="fitem item6"><a href="./about.html">About</a></div>
+        </div>
+       
+      <div class="page">
+        <h2 class="mpage page1">welcome to</h2>
+        <h1 class="mpage page2">Govt Queen Mary Graduate College</h1>
+        <h3 class="mpage page3">Service With Simplicity</h3>
+    </div>
+    <div class="flexcontainer">
+        <ul class="ul1">about us
+            <li class="footer f1">history</li>
+            <li class="footer f2">introduction</li>
+            <li class="footer f3">board of governor</li>
+            <li class="footer f4">college buildings</li>
+            <li class="footer f5">old queen marian's <br>association</li>
+        </ul>
+        <ul class="ul2" >facilities
+            <li class="footer f.">transport</li>
+            <li class="footer fb">hostel</li>
+            <li class="footer fc">fitness center</li>
+            <li class="footer fd">medical help</li>
+            <li class="footer fe">how to apply</li>
+        </ul>
+
+        <ul class="ul3">useful link
+            <li class="footer f0">contact</li>
+        </ul>
+       
+        </div>
+        
+
+    
+</body>
+</html>
